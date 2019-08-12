@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #define MAX 10
-int top=-1,arr[MAX];
+int top=-1,arr[MAX];  
 display(){
 int i;
 if (top==-1){
@@ -49,7 +49,7 @@ int main()
 {
 int n,choice;
 while(1){
-printf("1 For Push\n");
+printf("1 For Pu1sh\n");
 printf("2 For Pop\n");
 printf("3 For Peep\n");
 printf("4 For Display The Stack\n");

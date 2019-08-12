@@ -4,10 +4,10 @@ struct node{
 int data;
 struct node* link;
 };
-struct node* root=NULL;
 /*start of append*/
 int append(){
 struct node* temp;
+struct node* root=NULL;
 temp=(struct node*)malloc(sizeof(struct node));
 printf("Enter Node Data");
 scanf("%d",&temp->data);
@@ -28,11 +28,18 @@ free(temp);
 /*end of append*/
 
 
-/*       start of add at mid		*/
-//addmid(){
+/* start of add at mid*/
+addbegin(){
+struct node *temp;
+struct node* root=NULL;
+printf("Enter Node Data");
+scanf("%d",&temp->data);
+temp->link=NULL;
+if (root==NULL){
 
-//}
+}
+}
 int main(){
 append();
-//addmid();
+addmid();
 }
